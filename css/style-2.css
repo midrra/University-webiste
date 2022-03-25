@@ -1,0 +1,35 @@
+.header {
+  min-height: 50vh;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../images/background.jpg);
+}
+.text-box h1 {
+  font-size: 30px;
+}
+.about {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+}
+.about-col {
+  flex-basis: 48%;
+  margin-bottom: 5%;
+}
+.row img {
+  width: 100%;
+}
+.about-col p {
+  padding: 0;
+  margin: 20px 0;
+}
+.hero-btn {
+  border: 1px solid #f44336;
+  color: #f44336;
+}
+.hero-btn::before,
+.hero-btn::after {
+  background-color: #f44336;
+}
+.hero-btn:hover {
+  color: #fff;
+}
