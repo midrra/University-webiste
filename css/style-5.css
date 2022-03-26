@@ -1,0 +1,56 @@
+.map {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+}
+.line {
+  background-image: url(../images/google-map.png);
+  height: 80vh;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.row {
+  margin-top: 13%;
+  margin-bottom: 9%;
+}
+.data {
+  flex: 1;
+  align-items: center;
+}
+.data-col {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.place {
+  margin-left: 20px;
+}
+.data-col .fas {
+  font-size: 20px;
+  color: #f44336;
+}
+.data-col .far {
+  font-size: 26px;
+  color: #f44336;
+}
+.place h2:first-child {
+  font-weight: normal;
+  font-size: 20px;
+}
+.place p:last-child {
+  padding: 5px 0 0 0;
+}
+.sign-up {
+  margin-top: 0;
+  padding: 0;
+  border: 0;
+}
+.sign-up input {
+  border: 1px solid #b3a1a1;
+  color: black;
+}
+.sign-up textarea {
+  border: 1px solid #b3a1a1;
+}

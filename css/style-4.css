@@ -1,0 +1,72 @@
+/* --------Certificate-----------  */
+.certificate {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.certificate-col-in {
+  flex-basis: 62%;
+}
+.certificate-col-out {
+  flex-basis: 34%;
+}
+.certificate-col img {
+  width: 100%;
+}
+.acoord .acoord-col {
+  display: flex;
+}
+.acoord .acoord-col {
+  display: flex;
+  justify-content: space-between;
+}
+.sign-up-btn {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sign-up-btn::before,
+.sign-up-btn::after {
+  display: none;
+}
+.certificate h2 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.certificate p {
+  padding-left: 0;
+  word-break: break-all;
+  padding-right: 0;
+}
+.sign-up {
+  border: 1px solid black;
+  padding: 20px 10px;
+  margin-top: 40px;
+}
+.sign-up h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.sign-up input {
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 10px;
+  background-color: #eee;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+}
+.sign-up textarea {
+  width: 100%;
+  background-color: #eee;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+.sign-up .hero-btn {
+  margin: 20px 0 0 20px;
+}
